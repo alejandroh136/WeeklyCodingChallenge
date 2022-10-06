@@ -3,9 +3,9 @@
 using RegexPin;
 Solution sol = new Solution();
 
-if(sol.Validate("16564")){
-    Console.WriteLine("true");
-}
-else{
-    Console.WriteLine("false");
-}
+Console.WriteLine(sol.Validate("121317"));
+Console.WriteLine(sol.Validate("1234"));
+Console.WriteLine(sol.Validate("45135"));
+Console.WriteLine(sol.Validate("89abc1"));
+Console.WriteLine(sol.Validate("900876"));
+Console.WriteLine(sol.Validate(" 4983"));
